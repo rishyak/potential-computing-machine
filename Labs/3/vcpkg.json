@@ -1,0 +1,14 @@
+{
+  "name": "week-two-lab",
+  "version": "1.0.0",
+  "description": "Template for week two lab",
+  "homepage": "https://github.com/NYU-Processor-Design/nyu-cmake",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "license": "CC0-1.0",
+  "dependencies": [
+    "nyu-cmake",
+    "catch2"
+  ]
+}
