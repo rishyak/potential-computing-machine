@@ -13,4 +13,6 @@ module Exercise1 (
     output [7:0] out
 );
 
+assign out = op[1] ? (op[0] ? a | b : a & b) : (op[0] ? a - b : a + b);
+
 endmodule
