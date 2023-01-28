@@ -14,11 +14,10 @@ module Exercise2 (
 );
 
     always @(posedge clk) begin
-        if (nReset == 0) begin
+        if (nReset == 0)
             out <= init;
-        end else begin
-            out <= {out[14:0], out[15] ^ out[13] ^ out[12] ^ out[10]};
-        end        
+        else
+            out <= {out[14:0], out[15] ^ out[13] ^ out[12] ^ out[10]};        
     end
 
 endmodule
