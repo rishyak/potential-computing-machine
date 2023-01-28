@@ -2,4 +2,4 @@
 Here's all my processor design stuff
 
 # Labs
-- [Lab 1](Lab/1/): Toolchain
+- [Lab 1](Labs/1/README.md): Toolchain
