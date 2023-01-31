@@ -6,7 +6,7 @@
   @input a_in   alpha input
   @input b_in   beta input
 
-  @output out    output
+  @output out   output
 */
 module Mystery2 (
     input clk,
