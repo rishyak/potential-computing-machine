@@ -1,4 +1,5 @@
 find_package(Catch2 3 REQUIRED CONFIG)
+find_package(nyu-util REQUIRED CONFIG)
 
 add_executable(tests)
 target_sources(tests PRIVATE exercise1.cpp exercise2.cpp exercise3.cpp exercise4.cpp)
