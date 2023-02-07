@@ -26,3 +26,8 @@ find_package(nyu-cmake CONFIG REQUIRED)
 
 add_library(lab4 INTERFACE)
 add_subdirectory(rtl)
+
+if (NYU_BUILD_TESTS)
+  enable_testing()
+  add_subdirectory(dv)
+endif()
