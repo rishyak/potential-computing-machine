@@ -21,6 +21,7 @@ add_custom_target(UpdateVcpkgBaseline
 )
 
 project(week-four-lab VERSION 1.0.0)
+set(CMAKE_CXX_STANDARD 20)
 
 find_package(nyu-cmake CONFIG REQUIRED)
 
