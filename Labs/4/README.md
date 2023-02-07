@@ -15,6 +15,7 @@
    - Hence cannot be compiled immediately
    - I'm not sure what "generic programming" examples exist
    - But, I know that header-only libraries (like boost or catch2) are often used as as interface libraries
+   - > Templates! You can't compile a template before some code provides an instantiation, a monomorphization of it (or, well, you can't completely compile it). Template libraries are always distributed as pure source code ("header-only"), so they're always interface libraries.
 
 4. What is a top module?
    - Modules that we expose for simulation
