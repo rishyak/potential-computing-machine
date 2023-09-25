@@ -13,9 +13,14 @@ if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
     ${vcpkg_SOURCE_DIR}/scripts/buildsystems/vcpkg.cmake
     CACHE FILEPATH "Vcpkg toolchain file"
   )
+  set(VCPKG_ROOT_DIR ${vcpkg_SOURCE_DIR} CACHE PATH "Vcpkg Root Directory")
 endif()
 
-project(week-two-lab)
+add_custom_target(UpdateVcpkgBaseline
+  ${VCPKG_ROOT_DIR}/vcpkg x-update-baseline
+)
+
+project(week-three-lab)
 
 set(NYU_BUILD_TESTS TRUE)
 
